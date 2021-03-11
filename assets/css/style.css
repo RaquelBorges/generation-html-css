@@ -1,8 +1,14 @@
 
 body
 {
-    background-color:rgb(197, 196, 196);
-    font-family: 'Times New Roman', Times, serif
+    
+    background: linear-gradient(gray, white);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p
+{
+font-size: 14pt;
 }
 
 .center
@@ -29,7 +35,6 @@ body
 {
     margin-left: 40px;
     margin-right: 60px;
-    margin-bottom: 40px;
 }
 
 .margintop
@@ -60,9 +65,8 @@ body
 #menu li 
 {
     display: inline;
-    font-size: 15pt;
+    font-size: 14pt;
     padding: 15px;
-    
     
 }
 #menu li a
@@ -75,6 +79,7 @@ color: black;
 #menu li a:hover
 {
     color: rgb(153, 34, 103);
+    font-size: 18px;
 }
 
 .icons
@@ -82,4 +87,3 @@ color: black;
     width: 40px;
     height: 40px;
 }
-    
