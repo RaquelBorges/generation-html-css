@@ -23,23 +23,22 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand ml-1" href="index.html"><img src="assets/img/arte.png" alt="logo" width="80px"
-          height="80px"></a>
+      <img id="logo" class="mr-2" src="assets/img/arte.png" alt="logo" width="80px" height="80px"></a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="#quemSomos"> Quem somos <span class="sr-only">(Página atual)</span></a>
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#quemSomos"> <b>Quem somos</b> <span class="sr-only">(Página atual)</span></a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="#artesanato"> Artesanato </a>
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#artesanato"> <b>Artesanato </b> </a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="#modaSustentavel"> Moda Sustentável </a>
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#modaSustentavel"> <b>Moda Sustentável</b> </a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="#comoComprar"> Como comprar </a>
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#impactoAmbiental"> <b>Impacto Ambiental </b> </a>
         </li>
-        <li class="nav-item active mr-2">
-          <a class="nav-link" href="#faleConosco"> Fale Conosco </a>
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#faleConosco"> <b>Fale Conosco</b> </a>
         </li>
       </ul>
     </div>
@@ -48,7 +47,7 @@
 
   <!--Carrossel-->
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide mt-2" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
@@ -76,10 +75,9 @@
   </div>
 
   <!--/Carrossel-->
-
-  <!--grid-->
+  <!--Quem somos-->
   <h2 id="quemSomos" class="text-center mt-5 mb-2">Quem Somos</h2>
-  <div class="container p-1 mb-0 bg-info text-dark"></div>
+  <div class="container p-1 mb-0 text-dark bg-info"></div>
 
   <div class="container">
     <div class="row mt-3">
@@ -101,14 +99,12 @@
       </div>
     </div>
   </div>
-
-  <!--Cards-->
+  <!--/Quem somos-->
 
   <!--Artesanato-->
   <h2 id="artesanato" class="text-center mt-5 mb-2">Artesanato</h2>
-  <div class="container p-1 mb-0 bg-info text-dark"></div>
-
-  <div class="container mb-5">
+ <div class="container p-1 mb-0 bg-info text-dark"></div>
+  <div class="container mb-2">
     <div class="row mt-3">
       <div class="col-md-6">
         <p>
@@ -131,14 +127,16 @@
       </div>
     </div>
   </div>
-
   <div class="container">
+    <h4 class="text-center mb-5">Veja algum de nosso produtos</h4>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
           <img src="assets/img/foto1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Datas especiais</h5>
+            <h6 class="card-title">Coelhinho para presentear na páscoa</h6>
+            <a href="https://www.instagram.com/p/CMFzRkVnd1I/" target="_blank" class="btn background">Ver no
+              Instagram</a>
           </div>
         </div>
       </div>
@@ -146,7 +144,9 @@
         <div class="card">
           <img src="assets/img/foto2.jfif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Quartos de bebê</h5>
+            <h6 class="card-title">Boneca para decoração de quarto de bebê</h6>
+            <a href="https://www.instagram.com/p/CJwsImUJVDU" target="_blank" class="btn background">Ver no
+              Instagram</a>
           </div>
         </div>
       </div>
@@ -154,7 +154,9 @@
         <div class="card">
           <img src="assets/img/foto3.jfif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Presente</h5>
+            <h6 class="card-title"> Peso de porta galinha pintadinha</h6>
+            <a href="https://www.instagram.com/p/CJwrW5DJPQw" target="_blank" class="btn background">Ver no
+              Instagram</a>
 
           </div>
         </div>
@@ -162,9 +164,8 @@
     </div>
   </div>
   <!--/artesanato-->
+
   <!--Moda-->
-
-
   <h2 id="modaSustentavel" class="text-center mt-5 mb-2">Moda Sustentável</h2>
   <div class="container p-1 mb-0 bg-info text-dark"></div>
   <div class="container mb-5">
@@ -190,14 +191,14 @@
       </div>
     </div>
   </div>
-
   <div class="container">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
           <img src="assets/img/roupa1.jfif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Vestidos</h5>
+            <h6 class="card-title">Vestido florido decote em V </h6>
+            <a href="https://www.instagram.com/p/CKwcZx4p1A7/" target="_blank" class="btn background">Ver no Instagram</a>
           </div>
         </div>
       </div>
@@ -205,7 +206,8 @@
         <div class="card">
           <img src="assets/img/roupa2.jfif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Blusas de manga comprida</h5>
+            <h5 class="card-title">Vestido curto de malha</h5>
+            <a href="https://www.instagram.com/p/CJ_-4z0peSv/" target="_blank" class="btn background">Ver no Instagram</a>
           </div>
         </div>
       </div>
@@ -213,7 +215,8 @@
         <div class="card">
           <img src="assets/img/roupa3.jfif" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Calças e saias</h5>
+            <h6 class="card-title">Blusa preta de linha </h6>
+            <a href="https://www.instagram.com/p/CLxGSi2n-ge/" target="_blank" class="btn background">Ver no Instagram</a>
 
           </div>
         </div>
@@ -221,53 +224,123 @@
     </div>
   </div>
   <!--/Moda-->
-  <!--/Cards-->
 
-  <!--Como Comprar-->
-
-  <h2 id="comoComprar" class="text-center mt-5 mb-2">Como Comprar</h2>
+  <!--Impacto ambiental-->
+  <h2 id="impactoAmbiental" class="text-center mt-5 mb-2">Impacto ambiental</h2>
   <div class="container p-1 mb-0 bg-info text-dark"></div>
-
-  <!--/como comprar-->>
-
-
   <div class="container">
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center">
       <div class="col-md-7">
-        <h4>video exemplo - apresentação da loja</h4>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hat1Hc9SNwE" frameborder="0"
+        <h4 class="text-center mb-5 mt-5">Os Impactos ambientais da indústria da moda </h4>
+        <iframe width="650" height="415" src="https://www.youtube.com/embed/CjKuUr9iyQ8" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
-
-        <div class="col-md-1">
-          <a href="https://www.instagram.com/arteebrecho_/" target="_blank"> <img src="assets/img/instagram.png"
-              alt="logo instagram" class="icon"> </a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://web.whatsapp.com/" target="_blank"> <img src="assets/img/whatsapp.png" alt="logo instagram"
-              class="icon"> </a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://www.facebook.com/ester.garcia.52459" target="_blank"> <img src="assets/img/facebook.png"
-              alt="logo instagram" class="icon"> </a>
-        </div>
+    </div>
+    <p class="mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis aut sapiente nostrum vitae
+      id voluptatum
+      qui deserunt veritatis reiciendis ipsum quas veniam eligendi, voluptatibus deleniti recusandae debitis eum
+      adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, laboriosam! Assumenda vitae, laudantium
+      iure Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, labore ut dolorum laudantium accusantium
+      nihil blanditiis qui dignissimos illo! Ullam, nostrum nihil iusto voluptate tempora consectetur vero cum unde
+      illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, atque. Eaque vitae excepturi, harum itaque
+      fugit similique, iusto facere magnam inventore velit architecto accusamus? Asperiores ipsa molestias debitis
+      repellendus magni!
+      tempore ad esse eius quibusdam aspernatur, aut quo quod praesentium rerum perferendis iste veniam ab dignissimos.
+    </p>
+    <div class="row ml-5 mt-5">
+      <div class="col md-2">
+        <img class="img" src="assets/img/sus2.png" alt="img1">
+      </div>
+      <div class="col md-2">
+        <img class="img" src="assets/img/sus4.png" alt="img2">
+      </div>
+      <div class="col md-2">
+        <img class="img" src="assets/img/sus3.png" alt="img3">
+      </div>
+      <div class="col md-2">
+        <img class="img" src="assets/img/sus1.png" alt="img4">
       </div>
     </div>
-
-
-
-
-
-
-
+    <div class="row ml-5 mt-3">
+      <div class="col md-2">
+        Um mundo mais sustentável e consciente
+      </div>
+      <div class="col md-2">
+        Diminuição da liberação de CO2 na atmosfera
+      </div>
+      <div class="col md-2">
+        Economia de quase 500 milhões de litros de água
+      </div>
+      <div class="col md-2">
+        Menos roupas em aterros sanitários
+      </div>
+    </div>
+    <p class="mt-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi delectus sit voluptates quae rem
+      ad, consequuntur soluta alias vel error quas vero expedita deserunt eaque at, debitis, aut voluptas iste? Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus fuga nisi perspiciatis non fugiat in
+      nemo soluta laudantium deserunt? Nihil facilis voluptate eos tempora at debitis molestias, delectus tenetur.</p>
   </div>
+  <!--/Impacto ambiental-->
 
   <!--Fale Conosco-->
   <h2 id="faleConosco" class="text-center mt-5 mb-2">Fale Conosco</h2>
   <div class="container p-1 mb-0 bg-info text-dark"></div>
-
+  <h4 class="text-center mt-5 mb-3"> Acesse nossas redes sociais para ver e comprar nossos produtos!</h4>
   <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-1">
+        <a href="https://www.instagram.com/arteebrecho_/" target="_blank"> <img id="logo" src="assets/img/instagram.png"
+            alt="logo instagram" class="icon"> </a>
+      </div>
+      <div class="col-md-1">
+        <a href="https://www.facebook.com/ester.garcia.52459" target="_blank"> <img id="logo" src="assets/img/facebook.png"
+            alt="logo facebook" class="icon"> </a>
+      </div>
+      <div class="col-md-1">
+        <a href="https://web.whatsapp.com/" target="_blank"> <img id="logo"
+            src="assets/img/whatsapp.png" alt="logo whatsapp" class="icon"> </a>
+      </div>
+    </div>
+
+    <form class="form-floating container mt-5">
+      <h5 class="text-center"> Ou envie sua mensagem por aqui
+      </h5>
+
+      <div class="row mt-3">
+        <div class="col">
+          <input id="nome" type="text" class="form-control" placeholder="João" aria-label="First name"
+            onkeyup="validaNome()">
+          <label for="floatingInput">Primeiro nome</label>
+          <div id="alertNome">
+          </div>
+        </div>
+        <div class="col">
+          <input id="sobrenome" type="text" class="form-control" placeholder="Silva" aria-label="Last name"
+            onkeyup="validaSobrenome()">
+          <label for="floatingInput">Último nome</label>
+          <div id="alertSobrenome">
+          </div>
+        </div>
+      </div>
+      <div class="form-floating mt-3">
+        <input id="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+          onkeyup="validaEmail()">
+        <label for="floatingInput">E-Mail</label>
+        <div id="alertEmail">
+        </div>
+      </div>
+      <div class="form-floating mt-3">
+        <textarea id="mensagem" class="form-control" placeholder="Deixe sua mensagem aqui" id="floatingTextarea2"
+          style="height: 100px" onkeyup="validaMensagem()"></textarea>
+        <label for="floatingTextarea2">Mensagem</label>
+        <div id="alertMsg">
+        </div>
+        <div class="d-grid gap-2 col-1 mx-auto">
+          <button class="btn background" type="button" onclick="enviaMsg()">Enviar</button>
+        </div>
+    </form>
+
     <div class="row mt-5 justify-content-center align-items-center">
       <div class="col-md-5 w-100">
         <iframe id="mapa"
@@ -281,57 +354,35 @@
           nisi, eum impedit inventore dignissimos dolores placeat? Omnis aliquam minus labore. Perspiciatis
           dignissimos
           corrupti placeat temporibus
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem accusamus a rem laudantium ad iusto
+          optio. Voluptatibus reprehenderit doloribus laboriosam ipsa esse ex pariatur, non laudantium molestias alias
+          incidunt repellat.
         </p>
       </div>
+    </div>
 
-      <form class="form-floating container mt-5">
+    <!--/Fale Conosco-->
 
-        <div class="row mt-3">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="João" aria-label="First name">
-            <label for="floatingInput">Primeiro nome</label>
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Silva" aria-label="Last name">
-            <label for="floatingInput">Último nome</label>
-          </div>
-        </div>
-        <div class="form-floating mt-3">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">E-Mail</label>
-        </div>
-        <div class="form-floating mt-3">
-          <textarea class="form-control" placeholder="Deixe sua mensagem aqui" id="floatingTextarea2"
-            style="height: 100px"></textarea>
-          <label for="floatingTextarea2">Mensagem</label>
-          <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-primary" type="button">Enviar</button>
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
 
-          </div>
+    <script src="assets/Script/script.js"></script>
+    <!--/JS-->
 
-      </form>
-
-      <!--/Fale Conosco-->
-
-
-      <!--JS do Bootstrap-->
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 </body>
-
-
 
 <hr>
 <footer>
   <p class="text-center">Desenvolvido por Raquel Borges &copy;</p>
+
 </footer>
 
 </html>
