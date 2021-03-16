@@ -40,8 +40,11 @@ p
 
 .img
 {
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: 120px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+
 }
 
 html
@@ -57,3 +60,4 @@ html
     text-align-last: right;
     font-size: 11pt;
 }
+
